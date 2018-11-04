@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+
+
+<head>
+
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap-rtl.css" rel="stylesheet" />
+    <script src="scripts/modules/Angular.js"></script>
+    <script src="scripts/modules/PersonModule.js"></script>
+
+    <script src="scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+</head>
+
+<body class="container">
+    <div class="container" ng-app="personModule" ng-controller="personController">
+        <h2>لیست کاربران</h2>
+        <hr />
+        <form name="personForm" novalidate>
+            <div class="form-horizontal">
+                <div class="form-group">
+
+                    <div class="col-md-11">
+                        <input class="form-control" type="text" ng-model="Name" ng-required="true" />
+                        <span style="color:brown;" ng-show="personForm.Name.$touched && personForm.Name.$error.required">First name is required.</span><br /><br />
+                    </div>
+                    <label class="control-label col-1">نام</label>
+                </div>
+                <div class="form-group">
+
+                    <div class="col-md-11">
+                        <input class="form-control" type="text" ng-model="Family" ng-required="نام خانوادگی را وارد نمایید" />
+                    </div>
+                    <label class="control-label col-1">فامیلی</label>
+                </div>
+                <div class="form-group">
+
+                    <div class="col-md-11">
+                        <input class="form-control" type="text" ng-model="Age" ng-required="سن  را وارد نمایید" />
+                    </div>
+                    <label class="control-label col-1">سن</label>
+                </div>
+                <div class="form-group">
+
+                    <div class="col-md-11">
+                        <button class="btn btn-success" ng-click="SavePerson()">ثبت</button>
+                    </div>
+                </div>
+                <div class="form-group">
+
+                    <div class="col-md-11">
+                        <input class="form-control ng-anchor ng-cloak" type="text" ng-model="filter.Family" />
+                    </div>
+                </div>
+                <div class="form-group">
+
+                    <div class="col-md-11">
+                        <select class="form-control" ng-model="sort">
+                            <option value="ID">شماره</option>
+                            <option value="Name">نام</option>
+                            <option value="Family">فامیلی</option>
+                            <option value="Age">سن</option>
+                        </select>
+                        <label class="control-label col-1">جستجو بر اساس</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="form-group">
+
+            <div class="col-md-11">
+
+                <rzslider rz-slider-model="slider.minValue"
+                          rz-slider-high="slider.maxValue"
+                          rz-slider-options="slider.options"></rzslider>
+            </div>
+        </div>
+
+
+        <table class="table-bordered tab-content table-striped col-md-12">
+            <tr class="col-md-12">
+                <td class="col-md-3">شماره</td>
+                <td class="col-md-3">نام</td>
+                <td class="col-md-3">فامیلی</td>
+                <td class="col-md-3">سن</td>
+                <td class="col-md-3">عملیات</td>
+            </tr>
+            <tr ng-repeat="p in person | filter:filter | orderBy:sort | limitTo : itemsPerPage : (CurrentPage - 1) * itemsPerPage">
+                <td class="col-md-3">{{p.ID}}</td>
+                <td class="col-md-3">{{p.Name}}</td>
+                <td class="col-md-3">{{p.Family}}</td>
+                <td class="col-md-3">{{p.Age}}</td>
+                <td><button class="btn btn-danger" ng-click="DeletePerson(p.ID)">حذف</button></td>
+            </tr>
+        </table>
+        <ul class="pagination pagination-sm" uib-pagination total-items="person.length" items-per-page="itemsPerPage" ng-model="CurrentPage" max-size="2" boundary-links="true" num-pages="numPages"></ul>
+    </div>
+ 
+</body>
+</html>

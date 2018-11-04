@@ -1,0 +1,148 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using PagedList;
+@using PagedList.Mvc;
+
+
+
+<link href="~/Content/bootstrap-rtl.css" rel="stylesheet" />
+<script src="~/scripts/modules/Angular.js"></script>
+<script src="~/scripts/modules/PersonModule.js"></script>
+<script src="~/scripts/angular-ui/ui-bootstrap-tpls.js"></script>
+<script src="~/scripts/jquery-1.10.2.min.js"></script>
+
+<div class="container" ng-app="personModule" ng-controller="personController">
+    <h2 class="text-right">لیست کاربران</h2>
+    <hr />
+    <form>
+        <div class="form-horizontal">
+            <div class="form-group" name="personForm" novalidate>
+                <div class="row">
+                    <div class="col-md-2">
+                        <label>نام</label>
+                    </div>
+                    <div class="col-md-4">
+                        
+                        <input class="form-control" name="Name" type="text" ng-model="Name" ng-required="true" />
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-2">
+                        <label>نام خانوادگی</label>
+                    </div>
+                    <div class="col-md-4" name="personForm" novalidate>
+                      
+                        <input class="form-control" type="text" ng-model="Family" ng-required="true" />
+
+                    </div>
+
+                </div>
+                </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-2">
+                        <label>سن</label>
+                    </div>
+                    <div class="col-md-4" name="personForm" novalidate>
+                        
+                        <input class="form-control" type="text" ng-model="Age" ng-required="true" />
+
+                    </div>
+
+                </div>
+                </div>
+            <div class="form-group">
+
+                <div class="col-md-4">
+                    <button class="btn btn-success btn-sm" ng-click="SavePerson()">ثبت کاربران</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-2">
+                        <label>جستجو بر اساس نام خانوادگی</label>
+                    </div>
+                    <div class="col-md-4">
+                        <input class="form-control ng-anchor ng-cloak" type="text" ng-model="Filter.Family" />
+                    </div>
+                </div>
+                </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-2">
+                        <label>مرتب سازی بر اساس </label>
+                    </div>
+                    <div class="col-md-4">
+
+                        <select class="form-control" ng-model="sort">
+                            <option value="ID">شماره</option>
+                            <option value="Name">نام</option>
+                            <option value="Family">فامیلی</option>
+                            <option value="Age">سن</option>
+                        </select>
+
+                    </div>
+                </div>
+            <br />
+            @*<div class="form-group">
+
+                <div class="col-md-11">
+                    <div class="col-md-4 col-sm-6 bottommargin-sm" style="height: 179px;">
+                        <div class="white-section">
+                            <label>جستجو بر اساس قیمت</label>
+                            <input class="range_12" type="range" id="Rangtxt" name="Rangtxt" ng-min="slider.minValue" ng-max="slider.maxValue" value="range_12.options" ng-model="range_12.value3" />
+
+                            <input class="form-control" type="text" name="from" ng-model="from" />
+                            <input class="form-control" type="text" name="to" ng-model="to" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>*@
+            @*<div>
+                <input ng-model="value" type="text" id="mySlider1" slider options="options" />
+            </div>*@
+
+        </div>
+        <table class="table-bordered tab-content table-striped">
+            <tr>
+              
+                <th class="text-center">شماره</th>
+                <th class="text-center">نام</th>
+                <th class="text-center">فامیلی</th>
+                <th class="text-center">سن</th>
+                <th class="text-center">عملیات</th>
+                </tr>
+             
+                
+                    <tr ng-repeat="p in person | filter:Filter | orderBy:sort">
+                        <td class="col-md-3 text-center">{{p.ID}}</td>
+                        <td class="col-md-3 text-center">{{p.Name}}</td>
+                        <td class="col-md-3 text-center">{{p.Family}}</td>
+                        <td class="col-md-3 text-center">{{p.Age}}</td>
+                        <td class="col-md-3 text-center"><button class="btn btn-danger" ng-click="DeletePerson(p.ID)">حذف</button></tdclass="col-md-3>
+                    </tr>
+
+
+                </table>
+</div>
+        @*<ul class="pagination pagination-sm" uib-pagination total-items="person.length" items-per-page="itemsPerPage" ng-model="CurrentPage"  max-size="2" boundary-links="true" num-pages="numPages"></ul>*@
+    </form>
+</div>
+<script src="~/scripts/jquery-1.10.2.js"></script>
+
+<script src="~/scripts/jquery-ui.js"></script>
+<script type="text/javascript">
+
+</script>
+

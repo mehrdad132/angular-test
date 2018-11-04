@@ -1,0 +1,104 @@
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\ApplicationInsights.config
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\csc.exe
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\System.Collections.Immutable.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\vbc.exe
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\VBCSCompiler.exe
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\roslyn\VBCSCompiler.exe.config
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\AngularTest.dll.config
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\AngularTest.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\AngularTest.pdb
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\EntityFramework.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\EntityFramework.SqlServer.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.AI.Web.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.AI.WindowsServer.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.ApplicationInsights.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Helpers.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Mvc.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Razor.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Webpages.Deployment.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Webpages.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Webpages.Razor.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\EntityFramework.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\EntityFramework.SqlServer.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.AI.Web.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.AI.WindowsServer.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.ApplicationInsights.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Razor.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Webpages.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Webpages.Deployment.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Webpages.Razor.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Helpers.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\bin\System.Web.Mvc.xml
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\obj\Debug\AngularTest.csprojResolveAssemblyReference.cache
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\obj\Debug\AngularTest.dll
+c:\users\mehrdad\documents\visual studio 2015\Projects\AngularTest\AngularTest\obj\Debug\AngularTest.pdb
+F:\AngularTest\AngularTest\bin\ApplicationInsights.config
+F:\AngularTest\AngularTest\bin\roslyn\csc.exe
+F:\AngularTest\AngularTest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\AngularTest\AngularTest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\AngularTest\AngularTest\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\AngularTest\AngularTest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\AngularTest\AngularTest\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\AngularTest\AngularTest\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\AngularTest\AngularTest\bin\roslyn\System.Collections.Immutable.dll
+F:\AngularTest\AngularTest\bin\roslyn\System.Reflection.Metadata.dll
+F:\AngularTest\AngularTest\bin\roslyn\vbc.exe
+F:\AngularTest\AngularTest\bin\roslyn\VBCSCompiler.exe
+F:\AngularTest\AngularTest\bin\roslyn\VBCSCompiler.exe.config
+F:\AngularTest\AngularTest\bin\AngularTest.dll.config
+F:\AngularTest\AngularTest\bin\AngularTest.dll
+F:\AngularTest\AngularTest\bin\AngularTest.pdb
+F:\AngularTest\AngularTest\bin\EntityFramework.dll
+F:\AngularTest\AngularTest\bin\EntityFramework.SqlServer.dll
+F:\AngularTest\AngularTest\bin\Microsoft.AI.Agent.Intercept.dll
+F:\AngularTest\AngularTest\bin\Microsoft.AI.DependencyCollector.dll
+F:\AngularTest\AngularTest\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\AngularTest\AngularTest\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\AngularTest\AngularTest\bin\Microsoft.AI.Web.dll
+F:\AngularTest\AngularTest\bin\Microsoft.AI.WindowsServer.dll
+F:\AngularTest\AngularTest\bin\Microsoft.ApplicationInsights.dll
+F:\AngularTest\AngularTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\AngularTest\AngularTest\bin\Microsoft.Web.Infrastructure.dll
+F:\AngularTest\AngularTest\bin\System.Web.Helpers.dll
+F:\AngularTest\AngularTest\bin\System.Web.Mvc.dll
+F:\AngularTest\AngularTest\bin\System.Web.Razor.dll
+F:\AngularTest\AngularTest\bin\System.Web.Webpages.Deployment.dll
+F:\AngularTest\AngularTest\bin\System.Web.Webpages.dll
+F:\AngularTest\AngularTest\bin\System.Web.Webpages.Razor.dll
+F:\AngularTest\AngularTest\bin\EntityFramework.xml
+F:\AngularTest\AngularTest\bin\EntityFramework.SqlServer.xml
+F:\AngularTest\AngularTest\bin\Microsoft.AI.DependencyCollector.xml
+F:\AngularTest\AngularTest\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\AngularTest\AngularTest\bin\Microsoft.AI.Web.xml
+F:\AngularTest\AngularTest\bin\Microsoft.AI.WindowsServer.xml
+F:\AngularTest\AngularTest\bin\Microsoft.ApplicationInsights.xml
+F:\AngularTest\AngularTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\AngularTest\AngularTest\bin\System.Web.Razor.xml
+F:\AngularTest\AngularTest\bin\System.Web.Webpages.xml
+F:\AngularTest\AngularTest\bin\System.Web.Webpages.Deployment.xml
+F:\AngularTest\AngularTest\bin\System.Web.Webpages.Razor.xml
+F:\AngularTest\AngularTest\bin\System.Web.Helpers.xml
+F:\AngularTest\AngularTest\bin\System.Web.Mvc.xml
+F:\AngularTest\AngularTest\obj\Debug\AngularTest.csprojResolveAssemblyReference.cache
+F:\AngularTest\AngularTest\obj\Debug\AngularTest.dll
+F:\AngularTest\AngularTest\obj\Debug\AngularTest.pdb
+F:\AngularTest\AngularTest\bin\PagedList.dll
+F:\AngularTest\AngularTest\bin\PagedList.Mvc.dll
+F:\AngularTest\AngularTest\bin\PagedList.xml
+F:\AngularTest\AngularTest\bin\PagedList.Mvc.xml
